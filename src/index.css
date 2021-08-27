@@ -17,12 +17,12 @@ code {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  padding: 10vh 0;
+  padding: 5vh 0;
 }
 
 .banner {
-  width: 80vw;
-  height: 80vh;
+  width: 90vw;
+  height: 90vh;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -34,15 +34,19 @@ code {
 h1 {
   font-size: 40px;
   line-height: 54px;
-  margin-bottom: 32px;
+  margin-bottom: 26px;
   font-weight: bold;
   color: #00122f;
 }
 
 .banner-text {
   padding-right: 120px;
-  line-height: 26px;
+  line-height: 22px;
   color: #3e4550;
+}
+
+p {
+  font-size: 14px;
 }
 
 .donate-btn {
@@ -97,18 +101,15 @@ h1 {
   }
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 1120px) {
   h1 {
     font-size: 32px;
     line-height: 40px;
     margin-bottom: 26px;
   }
   .banner-text {
-    padding-right: 40px;
+    padding-right: 20px;
   }
-}
-
-@media (max-width: 1010px) {
   .donate-btn {
     width: 100%;
     text-align: center;
@@ -118,22 +119,12 @@ h1 {
     margin: 8px 0 0 0;
     text-align: center;
   }
+  .banner-img {
+    width: 50%;
+  }
 }
 
 @media (max-width: 940px) {
-  .banner-text {
-    /* font-size: 15px; */
-    /* line-height: 22px; */
-    padding-right: 22px;
-  }
-  .banner-img {
-    width: 50%;
-    object-fit: cover;
-    object-position: center;
-  }
-}
-
-@media (max-width: 800px) {
   .banner-holder {
     padding: 5vh 0;
     background-image: url("https://i.imgur.com/Pprjl7r.jpg");
@@ -143,6 +134,7 @@ h1 {
     height: auto;
     min-height: 90vh;
     padding: 26px;
+    width: 94vw;
   }
   h1 {
     font-size: 24px;
